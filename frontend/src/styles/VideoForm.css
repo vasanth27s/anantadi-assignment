@@ -1,0 +1,40 @@
+.video-form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .video-form label {
+    margin: 10px 0 5px;
+  }
+  
+  .video-form input,
+  .video-form textarea {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .video-form input::placeholder,
+  .video-form textarea::placeholder {
+    font-size: 14px;
+    color: #aaa;
+  }
+  
+  .cta-button {
+    background-color: #6a0dad;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .cta-button:hover {
+    background-color: #4a0072;
+  }
+  
